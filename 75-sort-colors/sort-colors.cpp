@@ -9,10 +9,7 @@ public:
         {
             if(nums[j]<=p)
             {
-        
-                int temp = nums[j];
-                nums[j] = nums[i];
-                nums[i] = temp;
+                swap(nums[i],nums[j]);
                 i++;
             }
         }
